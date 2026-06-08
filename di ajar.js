@@ -1,0 +1,1 @@
+console.log("di ajar pul setek!");
