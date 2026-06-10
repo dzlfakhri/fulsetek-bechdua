@@ -13,10 +13,11 @@ div {
   border: 10px solid white;
   padding: 50px;
   margin: 20px;
+  border-radius: 15px;
   box-shadow: 5px 5px 2px grey;
 }
 h2 {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,7 +27,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  shadow: 10px 10px 5px grey;
+  border-radius: 50%;
 }
 p {
   text-align: center;
@@ -41,6 +42,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: lightgrey;
+  width: 100%;
 }
 ul li {
   float: left;
@@ -54,5 +56,5 @@ ul li a {
   font-family: monospace, sans-serif;
 }
 ul li a:hover {
-  background-color: blue;
+  background-color: lightgreen;
 }
